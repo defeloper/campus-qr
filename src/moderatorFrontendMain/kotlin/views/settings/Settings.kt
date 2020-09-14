@@ -35,7 +35,7 @@ class Settings : RComponent<SettingsProps, SettingsState>() {
       }
       br {}
     }
-    renderLanguageSwitch()
+    //renderLanguageSwitch()
     br {}
     muiButton {
       attrs.className = props.classes.button

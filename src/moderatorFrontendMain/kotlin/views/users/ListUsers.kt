@@ -107,9 +107,9 @@ class ListUsers : RComponent<ListUsersProps, ListUsersState>() {
         }
       },
       buttons = listOf(
-        DialogButton(Strings.more_about_studo.get(), onClick = {
+        DialogButton(Strings.more_about_Leksi.get(), onClick = {
           closeDialog()
-          window.open("https://studo.com", "_blank")
+          window.open("https://leksi.si", "_blank")
         }),
         DialogButton("OK", onClick = ::closeDialog)
       ),

@@ -20,22 +20,22 @@ suspend fun ApplicationCall.index() {
           }
         }
         h1("header") {
-          +LocalizedString("Campus QR").get(this@index)
+          +LocalizedString("UniQR").get(this@index)
         }
         div("what") {
           p {
             +LocalizedString(
-              "Campus QR is an open source solution for attendance tracking and infection tracing in the environment of a university.",
-              "Campus QR ist eine Open Source Lösung für Anwesenheits- und Infektionstracking für Universitäten und Hochschulen."
+              "UniQR is a solution for attendance tracking and infection tracing in the environment of a university.",
+              "UniQR ist eine Open Source Lösung für Anwesenheits- und Infektionstracking für Universitäten und Hochschulen."
             ).get(this@index)
           }
         }
         p {
-          +LocalizedString("To view more information about Campus QR, ", "Um mehr über Campus QR zu erfahren, ").get(
+          +LocalizedString("To view more information about UniQR, ", "Um mehr über UniQR zu erfahren, ").get(
             this@index
           )
           a {
-            href = "https://github.com/studo-app/campus-qr"
+            href = "https://leksi.si"
             target = "_blank"
             +LocalizedString("click here", "klicken Sie hier").get(this@index)
           }
@@ -54,9 +54,9 @@ suspend fun ApplicationCall.index() {
         span {
           +"Created by "
           a {
-            href = "https://studo.com"
+            href = "https://leksi.si"
             target = "_blank"
-            +"Studo"
+            +"Leksi"
           }
         }
       }
@@ -77,7 +77,7 @@ fun HTML.headTemplate(subtitle: String?, js: String, css: String, async: Boolean
       this.async = async
     }
     title {
-      +("Campus QR" + (subtitle?.let { ": $it" } ?: ""))
+      +("UniQR" + (subtitle?.let { ": $it" } ?: ""))
     }
     meta {
       name = "viewport"

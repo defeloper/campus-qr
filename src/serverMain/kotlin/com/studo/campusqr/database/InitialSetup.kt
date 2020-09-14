@@ -35,8 +35,8 @@ suspend fun initialDatabaseSetup() {
       insert("imprintUrl_de", "https://example.org")
       insert("logoUrl_en", "/static/userFrontend/universityIcon.svg")
       insert("logoUrl_de", "/static/userFrontend/universityIcon.svg")
-      insert("userAppName_en", "Campus QR Corona Tracking")
-      insert("userAppName_de", "Campus QR Corona Tracking")
+      insert("userAppName_en", "UniQR Corona Tracking")
+      insert("userAppName_de", "UniQR Corona Tracking")
       insert("userFooterAdditionalInfoUrl", "")
       insert("userFooterAdditionalInfoText_en", "")
       insert("userFooterAdditionalInfoText_de", "")
@@ -52,7 +52,7 @@ suspend fun initialDatabaseSetup() {
       )
 
       insert("baseUrl", "http://127.0.0.1:8070")
-      insert("appName", "Campus QR")
+      insert("appName", "UniQR")
 
       insert("deleteCheckInDataAfterDays", 4 * 7)
 

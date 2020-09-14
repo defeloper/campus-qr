@@ -16,7 +16,7 @@ object MbLocalizedStringConfig {
 
   }
 
-  private val defaultLanguage = SupportedLanguage.De
+  private val defaultLanguage = SupportedLanguage.En
 
   private var cachedCookieLang: SupportedLanguage? = null
 

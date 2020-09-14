@@ -46,8 +46,8 @@ class AppDrawerItems : RComponent<AppDrawerItemsProps, AppDrawerItemsState>() {
   override fun RBuilder.render() {
     logoBadge(
       logoUrl = "$baseUrl/static/images/logo_campusqr.png",
-      logoAlt = "Campus QR",
-      badgeTitle = props.config.userData?.appName ?: "",
+      logoAlt = "UniQR",
+      badgeTitle = "UniQR",
       badgeSubtitle = props.config.userData?.clientUser?.name ?: ""
     )
 

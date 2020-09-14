@@ -120,9 +120,10 @@ fun BODY.renderLocation(location: ClientLocation, configs: Map<String, String>) 
       id = location.id
     }
     div("footer") {
+      /*
       p {
         +configs.getValue("scanSubtext1")
-      }
+      }*/
       p {
         +configs.getValue("scanSubtext2")
       }

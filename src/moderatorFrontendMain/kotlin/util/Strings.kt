@@ -73,16 +73,16 @@ object Strings {
 
   val location_import_details = LocalizedString(
       "If locations are accessible from the Campus Management System or are available as Excel list, " +
-          "they can be added automatically as mass import by Studo. " +
-          "Please contact the Studo team for more information.",
+          "they can be added automatically as mass import by Leksi. " +
+          "Please contact the Leksi team for more information.",
       "Sofern Orte vom Campus Management System abrufbar sind oder als Excel-Liste verfügbar sind, " +
-          "können diese automatisch als Massenimport von Studo hinzugefügt werden. " +
-          "Bitte kontaktieren Sie dazu das Studo Team für mehr Informationen."
+          "können diese automatisch als Massenimport von Leksi hinzugefügt werden. " +
+          "Bitte kontaktieren Sie dazu das Leksi Team für mehr Informationen."
   )
 
-  val more_about_studo = LocalizedString(
-      "More about Studo",
-      "Mehr über Studo"
+  val more_about_Leksi = LocalizedString(
+      "More about Leksi",
+      "Mehr über Leksi"
   )
 
   val location_create = LocalizedString(
@@ -275,8 +275,8 @@ object Strings {
   )
 
   val login_info = LocalizedString(
-      "Information about Campus QR",
-      "Informationen über Campus QR"
+      "Information about UniQR",
+      "Informationen über UniQR"
   )
 
   val login_unknown_error = LocalizedString(
@@ -569,17 +569,17 @@ object Strings {
           "SSO login via the Campus Management System, " +
           "please contact the developers of this application directly. " +
           "The authentication can also be done by LDAP. " +
-          "The Studo team can integrate a customized SSO solution in coordination with the university.",
+          "The Leksi team can integrate a customized SSO solution in coordination with the university.",
       "Um diese Web Applikation mit dem an der Hochschule verwendeten Single Sign On System zu verbinden bzw. " +
           "einen SSO-Login über das Campus Management System zu ermöglichen, " +
           "kontaktieren Sie bitte direkt die Entwickkler dieser Applikation. " +
           "Die Authentifizierung kann desweiteren durch LDAP erfolgen." +
-          "Das Studo Team kann in Abstimmung der Hochschule eine für Sie zugeschnitte SSO-Lösung integrieren."
+          "Das Leksi Team kann in Abstimmung der Hochschule eine für Sie zugeschnitte SSO-Lösung integrieren."
   )
 
   val user_sso_info_details2 = LocalizedString(
-      "Further customization requests for your university can also be ordered directly from your Studo contact person.",
-      "Weiter Anpassungswünsche für Ihre Hochschule können auch direkt bei Ihrem Studo Ansprechpartner beauftragt werden."
+      "Further customization requests for your university can also be ordered directly from your Leksi contact person.",
+      "Weiter Anpassungswünsche für Ihre Hochschule können auch direkt bei Ihrem Leksi Ansprechpartner beauftragt werden."
   )
 
   val user_updated_account_details = LocalizedString(
@@ -603,13 +603,13 @@ object Strings {
           "Those flags are persisted in the database even across application restarts and updates of this application. " +
           "Examples for configuration flags are the imprint URL, the base URL for scanning the QR codes " +
           "or the number of days after the check-in data is automatically deleted. " +
-          "Please contact the Studo team for further assistance or if you need more configration parameters.",
+          "Please contact the Leksi team for further assistance or if you need more configration parameters.",
       "Alle Konfigurationsflags die in der MongoDB-Datenbank in Collection \"configuration\" " +
           "gelistet sind können vom Administrator geändert werden. " +
           "Diese Flags bleiben auch bei Neustarts und Aktualisierungen dieser Applikation in der Datenbank erhalten. " +
           "Beispiele für Konfigurationsflags sind die Impressums-URL, die Basis-URL für das Einscannen der QR Codes " +
           "oder die Anzahl der Tage nachdem die Check-In Daten automatisch gelöscht werden. " +
-          "Bitte kontaktieren Sie das Studo Team für weitere Unterstützung oder falls Sie weitere " +
+          "Bitte kontaktieren Sie das Leksi Team für weitere Unterstützung oder falls Sie weitere " +
           "Konfigurationsparameter wünschen."
   )
 }

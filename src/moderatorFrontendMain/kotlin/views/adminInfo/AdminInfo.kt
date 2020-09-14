@@ -49,9 +49,9 @@ class AdminInfo : RComponent<AdminInfoProps, AdminInfoState>() {
           attrs.className = props.classes.contactButton
           attrs.color = "primary"
           attrs.onClick = {
-            window.open("https://studo.com", "_blank")
+            window.open("https://leksi.si", "_blank")
           }
-          +Strings.more_about_studo.get()
+          +Strings.more_about_Leksi.get()
         }
       }
     }

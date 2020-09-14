@@ -11,15 +11,15 @@ Access control or successful check-ins can also be verified by an employee durin
 
 The system is open source and can be hosted by the university itself.
 The web app is available as stand-alone application.
-The [Studo app](https://studo.com) integrates the provided Android and iOS reference implementation to allow offline dispatching of check-in events.
+The [Studo app](https://leksi.si) integrates the provided Android and iOS reference implementation to allow offline dispatching of check-in events.
 
 ## Features
 * **Simple**: Both check-in and administration have a clean and easy to use user interface.
 * **Secure**: State-of-the-art security measurements, role-based user management with only hashed password saving and encryption.
 * **Accessible**: Mobile optimized and responsive check in and management UI on all major devices and browsers without installation.
 * **Open source**: 100% of the code is open source and is without further modification production ready.
-* **Self-hostable**: The whole application can be hosted by the university itself. [Studo](https://studo.com) provides support in hosting the application.
-* **Managed hosting**: Secure and GDPR-compliant hosting in the EU with encrypted-at-rest databases by [Studo](https://studo.com) to go into production within days.
+* **Self-hostable**: The whole application can be hosted by the university itself. [Studo](https://leksi.si) provides support in hosting the application.
+* **Managed hosting**: Secure and GDPR-compliant hosting in the EU with encrypted-at-rest databases by [Studo](https://leksi.si) to go into production within days.
 * **Multiple languages**: All elements of the app are localized to English and German to be inclusive of all students, employees and guests of a university.
 * **Fully configurable**: Names, logos, links, privacy policy and text content is configurable in production without changing the source code.
 * **Exportable**: Check-ins at specific locations and check-ins from specific people can be downloaded as csv file to open them in Excel.
@@ -32,7 +32,7 @@ The [Studo app](https://studo.com) integrates the provided Android and iOS refer
 * **External identity management**: SSO, LDAP (using JNDI) and OAuth2 are supported by Ktor authentication packages. 
 
 ## Managed hosting features
-Campus QR can be hosted by the university itself or by [Studo](https://studo.com). When hosted by Studo, the following hosting features are available per default: 
+Campus QR can be hosted by the university itself or by [Studo](https://leksi.si). When hosted by Studo, the following hosting features are available per default: 
 * **Horizontal application scaling**: By running several API nodes in parallel, the application infrastructure can be scaled to as many nodes as required.
 * **Zero-downtime operations**: Deployment, container restarts and upgrades are zero-downtime operations: New containers have to be available first, before stopping the old containers.
 * **Automatic security updates**: Containers apply OS and JVM security updates with zero downtime.
